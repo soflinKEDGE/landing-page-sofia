@@ -1,0 +1,113 @@
+
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color rgb(113, 78, 251);
+    background-color: rgba(232, 229, 248, 0.7);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+
+.btn-cta {
+    background-color:rgb(113, 78, 251) ;
+    margin: 40px;
+    padding: 10px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 700px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner {
+    background-image: url(images/Key-visual-print-1600x1200px.png);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    min-height: 40px;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 70%);
+}
+#h1-banner{
+    font-stretch: ultra-expanded;
+    font-size: 80px;
+}
+
+#introduction {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: white ;
+    font-size: 40px;
+    font-stretch: ultra-expanded;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    color: rgb(113, 78, 251);
+    font: size 25px;
+    font-stretch: ultra-expanded;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+a {
+    color: rgb(113, 78, 251);
+    text-decoration: none;
+    border-radius: 25px;
+}
+.card-white img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.container{
+    width: 1300px;
+    margin: 100px auto;
+
+}
+
+.card-horizontal-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.card-white {
+
+    margin: 40px 5px; 
+    padding: 40px;
+    text-align: center;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.323) ;
+}
+    
+.btn-lila{
+    background-color:rgb(113, 78, 251) ;
+    margin: 40px;
+    padding: 10px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 700px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn-link:hover {
+    background-color:whitesmoke ;
+    color:rgb(113, 78, 251) ;
+}
+.footer{
+    background-color: rgb(113, 78, 251);
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 600px;
+    padding: 100px 0;
+}
